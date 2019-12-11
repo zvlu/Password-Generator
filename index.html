@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PassWord Generator</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Password Maker 3000</h2>
+        <div class = "result-container">
+            <span id = "result"></span>
+            <button class = "btn" id = "clipboard">
+                <i class = "far fa-clipboard"></i>
+            </button> 
+        </div> 
+    </div>
+    <div class="settings">
+        <div class="settings">
+            <label for="length">Password length</label>
+            <input type="number" id="length" min="8" max="128" value="8" />
+        </div>
+        <div class="settings">
+            <label for="lowercase">ADD lowercase LETTERS</label>
+            <input type="checkbox" id="lowercase" checked />
+        </div>
+        <div class="settings">
+            <label for="numbers">ADD numbers</label>
+            <input type="checkbox" id="numbers" checked />
+        </div>
+        <div class="settings">
+            <label for="symbols">ADD symbols</label>
+            <input type="checkbox" id="symbols" checked />
+        </div>
+        <button class="btn btn-large" id="generate">
+            SHOW YO PASSWORD
+        </button>
+    </div>
+</body>
+</html>
