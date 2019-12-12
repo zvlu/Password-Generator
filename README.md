@@ -1,10 +1,9 @@
 # Password-Generator
 ## Table Of Contents
-    * Installation
-    * Usage
+    * Installation/Usage
     * Credit
     * Lisense
-### Installation
+### Installation/Usage
     1.Go to [Github](https://zvlu.github.io/Password-Generator/.)
     2. You will prompted with instructions
     3. Select or Deselect character options for uniuqe password.
