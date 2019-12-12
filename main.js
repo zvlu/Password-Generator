@@ -38,6 +38,24 @@ showEl.addEventListener('click', () => {
     );
 });
 
+//copy to clip board
+
+savecopyEl.addEventListener('click', () =>{
+    const textarea = document.createElement('textarea');
+    const password = resultEl.innerText;
+
+    if (!password){
+        return;
+    }
+
+    textarea.value = password;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    textarea.remove();
+    alert('Password Copied')
+})
+
 // Generate Password Function
 
 function createPassword (lower, upper, number, special, length){
@@ -78,6 +96,7 @@ function createPassword (lower, upper, number, special, length){
         });
     }
 
+    //slice everything but  1 because the length is dictated by typescount
     const finalpass = createPassword.slice(0, length);
 
     return finalpass;

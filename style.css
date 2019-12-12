@@ -88,7 +88,7 @@ input[type='number']{
     align-items: center;
     margin: 15px 0;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 40px){
     .result-container {
         font-size: 14px;
     }
