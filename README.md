@@ -6,10 +6,10 @@
     * Lisense
 ### Installation
     1.Go to [Github](https://zvlu.github.io/Password-Generator/.)
-    1. You will prompted with instructions
-    1. Select or Deselect character options for uniuqe password.
-    1. You can then past to clipboard by clicking the clipboard button.
-    1. Alert "You have saved to clipboard"
+    2. You will prompted with instructions
+    3. Select or Deselect character options for uniuqe password.
+    4. You can then past to clipboard by clicking the clipboard button.
+    5. Alert "You have saved to clipboard"
 #### Credit
     Made by Eric King 2019
 #### Liscense
