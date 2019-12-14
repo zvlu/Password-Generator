@@ -41,6 +41,7 @@ input[type='number']{
 
 }
 .result-container {
+    overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: flex-start;

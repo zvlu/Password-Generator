@@ -2,7 +2,6 @@
 
 
 // DOM ELEMENTS
-
 const resultEl = document.getElementById('result');
 const lengthEl = document.getElementById('length');
 const lowercaseEl = document.getElementById('lowercase');
@@ -53,6 +52,7 @@ savecopyEl.addEventListener('click', () =>{
     textarea.select();
     document.execCommand('copy');
     textarea.remove();
+// Alerts User of PW Copy    
     alert('Password Copied')
 })
 
@@ -103,30 +103,6 @@ function createPassword (lower, upper, number, special, length){
     console.log(finalpass)
 
 };
-
-
-
-
-
-
- 
-
-
-//ouput password
-
-
-
-//event for password length
-
-//add lowercase
-
-//add upcase
-
-//add special character
-
-//clipboard function (madel) copy/paste
-
-
 
 // Create 4 Different Functions
 
